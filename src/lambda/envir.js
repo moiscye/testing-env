@@ -1,5 +1,5 @@
 exports.handler = async (event, context) => {
-  console.log("here");
+  console.log(" staging");
   const key = process.env.API_KEY;
   return {
     statusCode: 200,
